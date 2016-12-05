@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		49304F4155368E2BDAFF24F0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB0682CFA1C3397258B207D /* libPods.a */; };
+
 		ABBA2EFD1D802A98001B7EAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBA2EFC1D802A98001B7EAF /* main.m */; };
 		ABBA2F001D802A98001B7EAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBA2EFF1D802A98001B7EAF /* AppDelegate.m */; };
 		ABBA2F031D802A98001B7EAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBA2F021D802A98001B7EAF /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		9678EFDB9A680576F954762E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A6BE64D1DE646120AAD02D3C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+
+
 		ABBA2EF81D802A98001B7EAF /* AutoSetmodelsClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoSetmodelsClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBA2EFC1D802A98001B7EAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABBA2EFE1D802A98001B7EAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -133,6 +136,8 @@
 				ABBA2EFF1D802A98001B7EAF /* AppDelegate.m */,
 				ABBA2F011D802A98001B7EAF /* ViewController.h */,
 				ABBA2F021D802A98001B7EAF /* ViewController.m */,
+
+
 				ABBA2F041D802A98001B7EAF /* Main.storyboard */,
 				ABBA2F071D802A98001B7EAF /* Assets.xcassets */,
 				ABBA2F091D802A98001B7EAF /* LaunchScreen.storyboard */,
@@ -248,6 +253,7 @@
 					ABBA2EF71D802A98001B7EAF = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 62PBR79434;
+
 					};
 					ABBA2F101D802A98001B7EAF = {
 						CreatedOnToolsVersion = 7.3;
@@ -363,6 +369,7 @@
 				ABBA2F361D802AC9001B7EAF /* FFUtility.m in Sources */,
 				ABBA2F001D802A98001B7EAF /* AppDelegate.m in Sources */,
 				ABBA2EFD1D802A98001B7EAF /* main.m in Sources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,7 +513,8 @@
 			baseConfigurationReference = 9678EFDB9A680576F954762E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 62PBR79434;
+ 				DEVELOPMENT_TEAM = 62PBR79434;
+
 				INFOPLIST_FILE = AutoSetmodelsClass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wanda.AutoSetmodelsClass;
@@ -519,8 +527,8 @@
 			baseConfigurationReference = A6BE64D1DE646120AAD02D3C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 62PBR79434;
-				INFOPLIST_FILE = AutoSetmodelsClass/Info.plist;
+ 				DEVELOPMENT_TEAM = 62PBR79434;
+  				INFOPLIST_FILE = AutoSetmodelsClass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wanda.AutoSetmodelsClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
